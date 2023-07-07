@@ -1,0 +1,61 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+
+h1 {
+  color: steelblue;
+}
+
+main img {
+  float: right;
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+p {
+  padding: 0;
+}
+
+main {
+  max-width: 840px;
+}
+
+aside h2 {
+  position: relative;
+  width: 200px;
+}
+
+aside img {
+  width: 170px;
+  height: auto;
+}
+
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #FFFFFF;
+  text-align: center;
+}
+/* class selctors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(128, 0, 0, 0.2);
+  padding: 1em;
+  background-color: #800000;
+  color: #FFFFFF;
+}
