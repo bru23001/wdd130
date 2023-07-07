@@ -36,9 +36,11 @@ p {
 main {
   max-width: 840px;
 }
-
-aside h2 {
+aside {
   position: relative;
+}
+aside h2 {
+  position: absolute;
   width: 200px;
 }
 
