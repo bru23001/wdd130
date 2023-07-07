@@ -5,18 +5,18 @@
   box-sizing: border-box;
 }
 nav {
-  background-color: steelblue;
+  background-color: #ACC8E5;
   padding: 10px;
 }
 
 nav a {
-  color: white;
+  color: #112A46;
   display: block;
   padding: 20px;
 }
 
 h1 {
-  color: steelblue;
+  color: #264653;
 }
 
 main img {
@@ -30,6 +30,7 @@ main img {
 
 p {
   padding: 0;
+  color: #264653
 }
 
 main {
@@ -54,8 +55,8 @@ footer {
 /* class selctors */
 .box {
   margin: 1rem;
-  border: 1px solid rgba(128, 0, 0, 0.2);
+  border: 5px solid #e63946;
   padding: 1em;
-  background-color: #800000;
-  color: #FFFFFF;
+  background-color: #e9c46a;
+  color: #112A46;
 }
