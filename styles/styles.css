@@ -23,9 +23,9 @@ main img {
   float: right;
   width: 150px;
   height: auto;
-  border: 1px solid steelblue;
+  border: 1px solid #264653;
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: 0 0 30px #264653;
 }
 
 p {
@@ -43,20 +43,22 @@ aside h2 {
 }
 
 aside img {
-  width: 170px;
+  float: left;
+  width: 200px;
   height: auto;
 }
 
 footer {
   margin-top: 1em;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #264653;
   text-align: center;
 }
+
 /* class selctors */
 .box {
   margin: 1rem;
   border: 5px solid #e63946;
-  padding: 1em;
+  padding: 30px;
   background-color: #e9c46a;
   color: #112A46;
 }
