@@ -139,7 +139,7 @@ nav a:hover {
 
 .history div p {
   padding: 0;
-  margin: 10;
+  margin: 0;
   border: 0;
   color: var(--accent2-color);
   font-family: var(--default-font);
