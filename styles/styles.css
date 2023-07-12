@@ -46,7 +46,6 @@ main {
 
 aside {
   position: relative;
-  width: 200px;
   grid-column: 1/2;
   grid-row: 1/2;
   margin: 1rem;
