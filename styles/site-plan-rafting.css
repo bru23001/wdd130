@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #126B80;
+  --secondary-color: #1E8786;
+  --accent1-color: #5A5B42;
+  --accent2-color: #1D2011;
+  --heading-font: Belanosima, sans-serif;
+  --default-font: Roboto, sans-serif;
+  --nav-bg-color: var(--secondary-color);
+  --nav-link-color: rgb(232, 225, 225);
+  --nav-hover-color: var(--accent2-color);
+  --nav-hover-bg-color: var(--accent1-color);
+}
+body {
+  font-family: 14px var(--default-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h6 h5 h4 h3 h2 h1 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+  font-family: var(--heading-font);
+  font-size: 30px;
+  color: var(--nav-link-color);
+}
+
+p {
+  padding: 30px;
+}
+
+nav {
+  background-color: var(--nav-bg-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-color);
+  background-color: var(--nav-hover-bg-color);
+}
