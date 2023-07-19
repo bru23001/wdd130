@@ -239,7 +239,7 @@ nav a:hover {
   text-align: center;
   font-family: var(--heading-font);
   color: white;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 
@@ -328,7 +328,7 @@ footer {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 2 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
 .grid-item {
