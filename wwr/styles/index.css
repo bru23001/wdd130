@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #126B80;
+  --secondary-color: #1E8786;
+  --accent1-color: #5A5B42;
+  --accent2-color: #1D2011;
+
+  --heading-font: Belanosima, sans-serif;
+  --default-font: Roboto, sans-serif;
+
+  --nav-bg-color: var(--secondary-color);
+  --nav-link-color: white;
+  --nav-hover-color: var(--accent2-color);
+  --nav-hover-bg-color: var(--accent2-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  font-family: var(--heading-font);
+  font-size: 30px;
+  color: var(--nav-link-color);
+  padding: 20px;
+  margin: 0;
+
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+section h1 {
+  display: block;
+  text-align: center;
+}
+
+
+section h2 {
+  display: block;
+  text-align: center;
+}
+
+body {
+  font-family: var(--default-font);
+  max-width: 960px;
+  padding: 20px;
+  margin: auto;
+  background-color: var(--accent2-color);
+}
+nav {
+  background-color: var(--nav-bg-color);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: white;
+  background-color: var(--nav-hover-bg-color);
+}
+
+.company-name{
+  background-color: var(--accent1-color);
+  padding: 1rem;
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-image {
+  position: relative;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.main-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--default-font);
+  color: white;
+  background-color: var(--accent1-color);
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.main-text h1 {
+  font-size: 3rem;
+}
+
+.main-text .button {
+  display: inline-block;
+  background-color: var(--accent2-color);
+  color: white;
+  padding: 10px;
+}
+
+.main-text .button:hover {
+  background-color: var(--secondary-color);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 20px;
+
+}
+
+.grid-item {
+  border: solid white thin; 
+}
+
+.grid-item img {
+  width: 100%;
+  padding:1rem;
+  
+}
+
+.grid-item h2 {
+  font-family: var(--heading-font);
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+.grid-item p {
+  color: white;
+  padding: 20px;
+  background-color: var(--secondary-color);
+
+}
+
+.newsletter {
+  font-family: var(--default-font);
+  color: white;
+  padding: 1rem;  
+
+}
+
+.newsletter-form {
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    padding-bottom: 1px;
+    padding:1px ;
+  
+}
+
+.newsletter-form form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-family: var(--default-font);
+  color: white;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  
+}
+
+.newsletter-form label {
+  display: block;
+  font-family: var(--default-font);
+}
+
+.newsletter-form input,
+.newsletter-form textarea {
+  width: 95%;
+}
+
+
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  font-family: var(--default-font);
+  color: var(--primary-color);
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media img {
+  width: 3rem;
+}
+
+/* last modified 07/20/23*/
